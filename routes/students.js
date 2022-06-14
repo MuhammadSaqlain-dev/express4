@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const studentModel = require("../models/student.model");
 
 /* GET users listing. */
-router.get("/students", function (req, res) {
+router.get("/", function (req, res) {
   res.send("Students Route Work");
 });
 
